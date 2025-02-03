@@ -3,98 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matheus Vieira| Portfólio</title>
+    <title>Quintal Perdizes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">Quintal Perdizes</div>
         <nav>
-            <ul>
-                <li><a href="#about">Sobre o Quintal Perdizes</a></li>
-                <li><a href="#formation">Serviços</a></li>
-                <li><a href="#projects">Depoimentos</a></li>
-                <li><a href="#projects">Espaços</a></li>
-                <li><a href="#projects">Produtos</a></li>
+            <div class="logo">
+                <a href="#">Quintal Perdizes</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
                 <li><a href="#contact">Contato</a></li>
-                <li><a href="https://github.com/MatheusVieirat" target="_blank" class="cta">Explore Meu GitHub</a></li>
             </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Desenvolvedor Front-end apaixonado por criar soluções inovadoras.</h1>
-            <p>Sou estudante de Análise e Desenvolvimento de Sistemas pelo Centro Universitário Uninter, com previsão de formatura em outubro de 2026. Apaixonado por tecnologia, estou me especializando em desenvolvimento Front-end. No tempo livre, gosto de ler e participo ativamente das atividades ministeriais na minha igreja, encontrando transformação através do evangelho de Cristo..</p>
+    <main>
+        <section id="home" class="hero">
+            <h1>Bem-vindo ao Quintal Perdizes</h1>
+            <p>Um lugar especial para momentos especiais.</p>
+            <a href="#about" class="btn">Saiba mais</a>
+        </section>
 
-            <p>Acompanhe meus projetos mais recentes e colabore no GitHub.</p>
-            <a href="https://github.com/MatheusVieirat" target="_blank" class="btn-primary">Veja Meu Código no GitHub</a>
-        </div>
-    </section>
+        <section id="about" class="about">
+            <h2>Sobre Nós</h2>
+            <p>Informações sobre o Quintal Perdizes e sua história.</p>
+        </section>
 
-    <section id="formation" class="formation">
-        <h2>Formação Educacional</h2>
-        <p>Estou cursando o primeiro semestre de Análise e Desenvolvimento de Sistemas (ADS) na Uninter, com formatura prevista para outubro de 2026.</p>
-        <p>Concluí um curso técnico em Salesforce - Marketing Cloud na Fundação de Apoio à Tecnologia (FAT) entre setembro e outubro de 2022.</p>
-        <p>Tenho nível intermediário-avançado de inglês, o que tem sido um diferencial em minha formação e carreira.</p>
-    </section>
+        <section id="services" class="services">
+            <h2>Nossos Serviços</h2>
+            <p>Descrição dos serviços oferecidos.</p>
+        </section>
 
-    <section id="projects" class="projects">
-        <h2>Projetos Destaques</h2>
-        <div class="project-list">
-            <div class="project-item">
-                <img src="./img/projeto1.png" alt="projeto1.png">
-                <h3>Meu Portfólio Pessoal</h3>
-                <p>Meu primeiro projeto em HMTL e CSS</p>
-                <a href="https://github.com/MatheusVieirat/Portfolio-pessoal" target="_blank" class="btn-secondary">Ver no GitHub</a>
-            </div>
-            <div class="project-item">
-                <img src="./img/projeto2.png" alt="projeto2.png">
-                <h3>Projeto To-Do List</h3>
-                <p>Conheça um to-do rápido e efetivo</p>
-                <a href="https://github.com/MatheusVieirat/To-Do-List---Projeto" target="_blank" class="btn-secondary">Ver no GitHub</a>
-            </div>
-            <div class="project-item">
-                <img src="./img/projeto3.png" alt="projeto3.png">
-                <h3>Projeto Listagem</h3>
-                <p>Um prototipo teste de HTML e JavaScript</p>
-                <a href="https://github.com/MatheusVieirat/lista-presentes-casamento" target="_blank" class="btn-secondary">Ver no GitHub</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="skills">
-        <h2>Habilidades</h2>
-        <div class="skills-list">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>Git</span>
-        </div>
-        <a href="https://github.com/MatheusVieirat" target="_blank" class="btn-primary">Veja como uso essas tecnologias no GitHub</a>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Entre em Contato</h2>
-        <p>Se você está interessado em colaborar ou tem alguma dúvida, fique à vontade para entrar em contato.</p>
-        <form action="https://formsubmit.co/seu-email" method="POST">
-            <input type="text" name="name" placeholder="Seu Nome" required>
-            <input type="email" name="email" placeholder="Seu Email" required>
-            <textarea name="message" placeholder="Sua Mensagem" required></textarea>
-            <button type="submit" class="btn-primary">Enviar Mensagem</button>
-        </form>
-    </section>
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco.</p>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2024 - Todos os direitos reservados a Matheus Vieira Santos</p>
-        <div class="social-links">
-            <a href="https://github.com/MatheusVieirat" target="_blank">GitHub</a>
-
-            <a href="https://linkedin.com/in/matheus-vieira-oficial" target="_blank">LinkedIn</a>
-
-            <a href="https://instagram.com/matheus.vieirat" target="_blank">Instagram</a>
-        </div>
+        <p>&copy; 2023 Quintal Perdizes. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
